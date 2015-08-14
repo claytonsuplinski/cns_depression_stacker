@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta http-equiv=’cache-control’ content=’no-cache’>
+	<meta http-equiv=’expires’ content=’0'>
+	<meta http-equiv=’pragma’ content=’no-cache’>
+
+    <title>CNS Depression Stacker</title>
+	
+	<script type="text/javascript" src="js/google_chart.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/jquery-ui.css">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation" style="border-width:0px;">
+        <div id="top-navbar" class="container topnav cns-navbar">
+            <div id="page-title">
+				<a href="index.html">
+					CNS Depression Stacker
+				</a>
+            </div>
+        </div>
+        <div id="second-navbar" class="container topnav cns-navbar">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="index.html">Stacker</a>
+				</li>
+				<li>
+					<a href="patients.html" class="active">Patients</a>
+				</li>
+				<li>
+					<a href="treatments.html">Treatments</a>
+				</li>
+			</ul>
+        </div>
+        <div id="third-navbar" class="container topnav cns-navbar ui-widget">
+			<!-- TODO: Add Autocomplete -->
+			<input id="patient-search" placeholder="Search for patients..."></input>
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+						<!-- TODO: Make Dynamic -->
+						<h2 class="patient-name-title">Patients</h2>
+						<hr>
+                    </div>
+                </div>
+				<div id="list-of-patients">
+				</div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+	
+	<script src="js/init.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/welcome.js"></script>
+	<script src="js/stacker.js"></script>
+	<script src="js/patients.js"></script>
+	<script src="js/treatments.js"></script>
+	<script src="js/autocomplete.js"></script>
+	<script src="js/hash_manager.js"></script>
+	<script src="js/ajax_setup.js"></script>
+	<script src="js/google_timeline.js"></script>
+	<script src="js/config.js"></script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/patient_chart.js"></script>
+	
+	<script src="js/add_new_treatment.js"></script>
+	
+	<script src="js/jquery-ui.js"></script>
+
+</body>
+	
+	
+	<script type="text/javascript">
+
+	$(function() {
+		CNS.STACKER.AUTOCOMPLETE();
+		CNS.PATIENTS.LOAD_DATA();
+	});
+	
+    </script>
+
+</html>

@@ -1,0 +1,371 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+	background: #E3E3E3;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header, .home-header {
+    padding-top: 180px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    background: #E3E3E3;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 0%;
+	padding-bottom: 0px;
+}
+
+.home-message{
+	margin-top:100px;
+	margin-bottom:100px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background:transparent;
+	background: -webkit-repeating-linear-gradient(-45deg, transparent 0%, transparent 10%, rgba(255,255,255,0.6) 10%, rgba(255,255,255,0.6) 90%, transparent 90%, transparent 100%);
+	background: -o-repeating-linear-gradient(-45deg, transparent 0%, transparent 10%, rgba(255,255,255,0.6) 10%, rgba(255,255,255,0.6) 90%, transparent 90%, transparent 100%);
+	background: -moz-repeating-linear-gradient(-45deg, transparent 0%, transparent 10%, rgba(255,255,255,0.6) 10%, rgba(255,255,255,0.6) 90%, transparent 90%, transparent 100%);
+	background: repeating-linear-gradient(-45deg, transparent 0%, transparent 10%, rgba(255,255,255,0.6) 10%, rgba(255,255,255,0.6) 90%, transparent 90%, transparent 100%);	
+}
+
+.home-message h2, .home-message span{
+	font-family:'Julius Sans One', sans-serif;
+	font-weight:300;
+	color:#616A78;
+	font-size: 32px;
+}
+
+.home-message h4{
+	font-family:'Julius Sans One', sans-serif;
+	font-weight:300;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+	.intro-header {
+		padding-top:200px;
+	}
+
+    .intro-message {
+		padding-top:80px;
+        padding-bottom: 0%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+
+
+		*{
+			font-family: 'Open Sans', sans-serif;
+			font-weight:300;
+		}
+		#top-navbar{
+			background:#333;
+			background: -webkit-repeating-linear-gradient(45deg, #333 0%, #282828 10%);
+			background: -o-repeating-linear-gradient(45deg, #333 0%, #282828 10%);
+			background: -moz-repeating-linear-gradient(45deg, #333 0%, #282828 10%);
+			background: repeating-linear-gradient(45deg, #333 0%, #282828 10%);
+		}
+		#page-title{
+			background:transparent;
+			background: -webkit-repeating-linear-gradient(-45deg, transparent 0%, transparent 10%, rgba(0,10,20,0.5) 10%, rgba(0,10,20,0.5) 90%, transparent 90%, transparent 100%);
+			background: -o-repeating-linear-gradient(-45deg, transparent 0%, transparent 10%, rgba(0,10,20,0.5) 10%, rgba(0,10,20,0.5) 90%, transparent 90%, transparent 100%);
+			background: -moz-repeating-linear-gradient(-45deg, transparent 0%, transparent 10%, rgba(0,10,20,0.5) 10%, rgba(0,10,20,0.5) 90%, transparent 90%, transparent 100%);
+			background: repeating-linear-gradient(-45deg, transparent 0%, transparent 10%, rgba(0,10,20,0.5) 10%, rgba(0,10,20,0.5) 90%, transparent 90%, transparent 100%);
+			padding-top:15px;padding-bottom:15px;
+		}
+		#page-title a{
+			font-family: 'Julius Sans One', sans-serif !important;
+			font-size:24px !important;
+			color:#99C4D8 !important;
+		}
+		#page-title a:hover{
+			text-decoration:none;
+			color:#88E8C4 !important;
+		}
+		.cns-navbar{
+			text-align:center;
+			width:100%;
+			padding:0px;		
+		}
+		.cns-navbar ul{
+			width:100%;text-align:center;margin:0px;
+		}
+		.cns-navbar li{
+			text-align:center;
+		}
+		.cns-navbar a{
+			text-align:center;
+		}
+		#second-navbar{
+			background:#616A78;
+		}
+		#second-navbar li{
+			width:33.3%;
+		}
+		#second-navbar li:nth-child(2n){
+			background:rgba(51,51,51,0.3);
+		}
+		#second-navbar li:nth-child(2n+1){
+			background:rgba(51,51,51,0.5);
+		}
+		#second-navbar li:hover{
+			background:transparent;
+		}
+		@media (max-width: 767px) { 
+			#second-navbar li{
+				width:100%;
+			}
+		}
+		#second-navbar a{
+			color:#F5F5F5;
+		}
+		#second-navbar a:hover{
+			color:#ADF;
+		}
+		#third-navbar div{
+			width:100% !important;
+			padding:0px;
+		}
+		#patient-search{
+			margin:0px;
+			border-width:0px;
+			border-radius:0px;
+			padding:0.8em;
+			width:100%;
+			text-align:center;
+		}
+		.patient-name-title, .treatment-name-title{
+			font-family:'Open Sans', sans-serif;
+			font-weight:300;
+			color:#616A78;
+		}
+		.patient-info-title{
+			font-family:'Open Sans', sans-serif;
+			font-weight:300;
+			color:#616A78;
+		}
+		.add-new-treatment, .list-of-treatments{
+			margin-top:45px;
+		}
+		.patient-panel, .treatment-panel{
+			background:#CCC;padding:10px;
+			color:#616A78;
+			overflow:auto;
+		}
+		.patient-panel h4, .patient-panel h6, .treatment-panel h4, .treatment-panel h6{
+			font-family:'Julius Sans One', sans-serif;
+			font-weight:300;
+		}
+		.patient-panel label, .treatment-panel label{
+			font-family:'Julius Sans One', sans-serif;
+			font-weight:300;
+			font-size:10px;
+		}
+		.patient-panel div, .treatment-panel div{
+			padding-top:5px;
+			text-align:center;
+		}
+		.patient-panel div input, .patient-panel div select, .patient-panel div .btn{
+			text-align:center;
+			width:100%;
+		}
+		.patient-panel .btn, .treatment-panel .btn{
+			margin-top:15px;
+			margin-bottom:15px;
+		}
+		.patient-panel .table, .treatment-panel .table{
+			margin-top:10px;
+			background:rgba(255,255,255,0.8);
+		}
+		.patient-panel th, .treatment-panel th{
+			background:rgba(51,61,71,0.6);
+			color:white;
+		}
+		.patient-panel .table *, .treatment-panel .table *{
+			text-align:center;
+		}
+		.remove-treatment{
+			background:#DB8E9E;
+			color:white;
+			cursor:pointer;
+		}
+		.remove-treatment:hover{
+			background:#C36478;
+		}
+		.alert-text{
+			font-family:'Julius Sans One', sans-serif;
+			font-weight:300;
+			color:#616A78;
+		}
+		.ui-menu-item{
+			text-align:center;
+			font-family:'Open Sans', sans-serif;
+		}
+		a.active{
+			color:#43A9FF !important;
+		}
+		
+		.patient-panel, .treatment-panel{
+			margin-top:10px;
+			margin-bottom:10px;
+			cursor:pointer;
+		}
+		
+		.patient-panel *, .treatment-panel *{
+			font-family:'Julius Sans One', sans-serif;
+			font-weight:300;
+		}
+		
+		.patient-panel .col-md-3, .treatment-panel .col-md-3{
+			background:rgba(255,255,255,0.2);
+		}
+		
+		.treatment-duration{
+			 float:right;
+		}

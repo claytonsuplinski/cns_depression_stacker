@@ -1,0 +1,130 @@
+[
+	{
+		"name": "Morphine IV",
+		"duration": 5
+	},
+	{
+		"name": "Hydromorphone (Dilaudid) IV",
+		"duration": 3
+	},
+	{
+		"name": "Fentanyl IV",
+		"duration": 1
+	},
+	{
+		"name": "Meperidine (Demerol) IV",
+		"duration": 4
+	},
+	{
+		"name": "Duramorph (epidural)",
+		"duration": 24
+	},
+	{
+		"name": "Nalbuphine (Nubain) IV",
+		"duration": 6
+	},
+	{
+		"name": "Diphenhydramine (Benadryl) IV",
+		"duration": 8
+	},
+	{
+		"name": "Diazepam (Valium) IV",
+		"duration": 50
+	},
+	{
+		"name": "Lorazepam (Ativan) IV",
+		"duration": 20
+	},
+	{
+		"name": "Midazolam (Versed) IV",
+		"duration": 6
+	},
+	{
+		"name": "Haloperidol (Haldol) IV",
+		"duration": 6
+	},
+	{
+		"name": "Promethazine (Phenergan) IV",
+		"duration": 6
+	},
+	{
+		"name": "Prochlorperazine (Compazine) IV",
+		"duration": 6
+	},
+	{
+		"name": "Morphine PO",
+		"duration": 4
+	},
+	{
+		"name": "Hydromorphone (Dilaudid) PO",
+		"duration": 4
+	},
+	{
+		"name": "Oxycodone PO",
+		"duration": 6
+	},
+	{
+		"name": "Hydrocodone PO",
+		"duration": 8
+	},
+	{
+		"name": "Codeine PO",
+		"duration": 8 
+	},
+	{
+		"name": "Diphenhydramine (Benadryl) PO",
+		"duration": 8 
+	},
+	{
+		"name": "Alprazolam (Xanax) PO",
+		"duration": 12 
+	},
+	{
+		"name": "Diazepam (Valium) PO",
+		"duration": 50 
+	},
+	{
+		"name": "Lorazepam (Ativan) PO",
+		"duration": 20 
+	},
+	{
+		"name": "Clonazepam (Klonopin) PO",
+		"duration": 8 
+	},
+	{
+		"name": "Tramadol (Ultram) PO",
+		"duration": 7 
+	},
+	{
+		"name": "Cyclobenzaprine (Flexeril) PO",
+		"duration": 24 
+	},
+	{
+		"name": "Amitriptyline (Elavil) PO",
+		"duration": 24 
+	},
+	{
+		"name": "Acetaminophen PO",
+		"duration": 4 
+	},
+	{
+		"name": "Ketorolac (Toradol) IV",
+		"duration": 8 
+	},
+	{
+		"name": "Ketorolac (Toradol) PO",
+		"duration": 8 
+	},
+	{
+		"name": "Ibuprofen PO",
+		"duration": 6 
+	},
+	{
+		"name": "Celecoxib (Celebrex) IO",
+		"duration": 8 
+	},
+	{
+		"name": "Acetaminophen (Ofirmev) IV",
+		"duration": 4 
+	}
+]
